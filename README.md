@@ -48,7 +48,9 @@ class Person {
     this.#logSecret();
   }
 }
+```
 
+```js
 // 🔸 Class kế thừa Person để mở rộng chức năng
 class Student extends Person {
   constructor(name, grade) {
@@ -62,7 +64,9 @@ class Student extends Person {
     console.log(`${this.name} is a student in grade ${this.grade}.`);
   }
 }
+```
 
+```js
 // 🔸 Ví dụ class tổng hợp đầy đủ các thành phần nâng cao
 class Example {
   // 🔹 Instance field
@@ -108,7 +112,9 @@ class Example {
     return this.#privateMethod();
   }
 }
+```
 
+```js
 // 🔸 Thử nghiệm class Example
 const ex = new Example('demo');
 ex.name = 'JS';
@@ -117,7 +123,9 @@ ex.instanceMethod();                   // called on instance
 console.log(Example.staticProperty);   // class level
 Example.staticMethod();                // called on class
 console.log(ex.revealSecret());        // 123
+```
 
+```js
 // 🔸 Thêm ví dụ mới: class mô phỏng tài khoản ngân hàng
 class BankAccount {
   // Số dư mặc định
@@ -144,7 +152,9 @@ class BankAccount {
     return `${this.owner} has ${this.#balance} VND`;
   }
 }
+```
 
+```js
 // 🔸 Instance hoạt động
 const acc = new BankAccount('Nguyen Van A');
 acc.deposit(500000);

@@ -3,10 +3,20 @@
 ## Đối tượng (Object) và Lớp (Class) trong OOP là gì?
 
 ### 1. Đối tượng (Object) trong OOP
-Đối tượng (Object) bao gồm: Thuộc tính – Attribute (thông tin, đặc điểm của 1 đối tượng), phương thức – Method (hành vi mà đối tượng có thể thực hiện).
+Đối tượng (Object) bao gồm: Thuộc tính – Attribute (thông tin, đặc điểm của 1 <b>ĐỐI TƯỢNG (Object)</b>), phương thức – Method (hành vi mà <b>ĐỐI TƯỢNG (Object)</b> có thể thực hiện).
 
 ### 2. Lớp (Class) trong OOP
-Còn lớp (Class) lại biểu thị cho một lớp bao gồm những đối tượng sở hữu những đặc tính tương tự nhau về phương thức và thuộc tính. Ví dụ một cách dễ hiểu thì: LG, Samsung,… đều là các đối tượng thuộc lớp tivi thông minh.
+Còn lớp (Class) lại biểu thị cho một lớp bao gồm những <b>ĐỐI TƯỢNG (Object)</b> sở hữu những đặc tính tương tự nhau về phương thức và thuộc tính. Ví dụ một cách dễ hiểu thì: LG, Samsung,… đều là các <b>ĐỐI TƯỢNG (Object)</b> thuộc lớp tivi thông minh.
+
+### 3. Sự khác biệt giữa Object và Class trong OOP
+Lớp (Class) như một bản thiết kế: Hãy hình dung lớp như một bản thiết kế chi tiết cho một loại <b>ĐỐI TƯỢNG (Object)</b> cụ thể. Bản thiết kế này nêu rõ tất cả các đặc điểm và hành động mà các <b>ĐỐI TƯỢNG (Object)</b> thuộc loại đó có thể có. 
+
+Ví dụ: lớp Chó sẽ định nghĩa rằng một con chó có 4 chân, 2 mắt, có đuôi, và có thể thực hiện các hành động như sủa, chạy, ăn và ngủ.
+
+Đối tượng (Object) là một thực thể: Một <b>ĐỐI TƯỢNG (Object)</b> là một thực thể cụ thể được tạo ra dựa trên một lớp nhất định. Mỗi <b>ĐỐI TƯỢNG (Object)</b> là một bản sao của lớp đó, nhưng với các giá trị khác nhau cho các thuộc tính của nó. 
+
+Ví dụ: con chó Phú Quốc mà bạn đang nuôi là một <b>ĐỐI TƯỢNG (Object)</b> thuộc lớp Chó. Nó có cùng các đặc điểm chung với các con chó khác, nhưng lại có màu lông, kích thước và tính cách riêng biệt.
+
 ```html
 ```
 
@@ -193,7 +203,7 @@ console.log(acc.balance); // Nguyen Van A has 300000 VND
 
 | **Thành phần**           | **Giải thích**                                                               | **Ví dụ cụ thể**                                  |
 |--------------------------|------------------------------------------------------------------------------|---------------------------------------------------|
-| `class`                  | Cú pháp ES6 để định nghĩa khuôn mẫu cho đối tượng                            | `class Person {}`                                 |
+| `class`                  | Cú pháp ES6 để định nghĩa khuôn mẫu cho <b>ĐỐI TƯỢNG (Object)</b>                            | `class Person {}`                                 |
 | `constructor`            | Hàm đặc biệt trong class dùng để khởi tạo giá trị khi tạo object             | `constructor(name) { this.name = name }`          |
 | `instance`               | Một object cụ thể được tạo ra từ `class` hoặc constructor                    | `const p = new Person('Anna')`                    |
 | `new`                    | Toán tử dùng để tạo một instance từ class hoặc constructor function          | `new Person('Anna')`                              |

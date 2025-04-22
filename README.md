@@ -1,4 +1,14 @@
-# 📘 Tổng hợp OOP trong JavaScript
+# 📘 Tổng hợp OOP ( Object-oriented programming ) trong JavaScript
+
+## Đối tượng (Object) và Lớp (Class) trong OOP là gì?
+
+### 1. Đối tượng (Object) trong OOP
+Đối tượng (Object) bao gồm: Thuộc tính – Attribute (thông tin, đặc điểm của 1 đối tượng), phương thức – Method (hành vi mà đối tượng có thể thực hiện).
+
+### 2. Lớp (Class) trong OOP
+Còn lớp (Class) lại biểu thị cho một lớp bao gồm những đối tượng sở hữu những đặc tính tương tự nhau về phương thức và thuộc tính. Ví dụ một cách dễ hiểu thì: LG, Samsung,… đều là các đối tượng thuộc lớp tivi thông minh.
+```html
+```
 
 Dưới đây là ví dụ tổng hợp đầy đủ các thành phần bên trong `class` trong JavaScript hiện đại (ES6+), bao gồm cả kế thừa, static, getter/setter, private field và override method.
 
